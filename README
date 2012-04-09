@@ -12,3 +12,7 @@ $('#story-title').autocomplete({values:['Count of Monte Cristo', 'Atlas Shrugged
 
 Plugin creation helped by - {http://www.queness.com/post/112/a-really-simple-jquery-plugin-tutorial}
 
+TODO -
+Browser check 
+More testing
+Instead of creating a HTML element for each autocomplete, have just one and then move it to right below the element for which its the autocomplete

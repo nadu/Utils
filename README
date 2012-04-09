@@ -1,0 +1,14 @@
+jQuery plugin for autocomplete 
+Could not find a plugin for autocomplete without jQuery UI. 
+$(jQuery-selector).autocomplete(values:[array_of_values_for_autocomplete]
+There needs to be an element for each text box that has autocomplete and needs an attribute called "autocomplete-for"
+Example -
+HTML - 
+<input id='story-title' placeholder='Story Name' x-webkit-speech>
+<div class='autocomplete' autocomplete-for='story-title'></div>
+
+JS 
+$('#story-title').autocomplete({values:['Count of Monte Cristo', 'Atlas Shrugged', 'White Fang', 'Moby Dick']});
+
+Plugin creation helped by - {http://www.queness.com/post/112/a-really-simple-jquery-plugin-tutorial}
+
